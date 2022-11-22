@@ -1,7 +1,7 @@
-Moralis-NFT-Marketplace-FrontEnd
+# Moralis-NFT-Marketplace-FrontEnd
 
 
-This is fronend project for the NFT marketplace project with the help of Next.js and Moralis.
+This is the fronend project for the NFT marketplace with the help of Next.js and Moralis.
 
 ## Getting Started
 
