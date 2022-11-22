@@ -1,20 +1,28 @@
 {
-  "name": "full-stack-nft",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "next": "12.3.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
-  },
-  "devDependencies": {
-    "eslint": "8.25.0",
-    "eslint-config-next": "12.3.1"
-  }
+    "name": "full-stack-nft",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "moralis:sync": "moralis-admin-cli connect-local-devchain --chain hardhat -- moralisSubdomain db4wlz4paka1.grandmoralis.com --frpcPath C:/Users/91976/Desktop/Blockchain/BLockchain_2.0/FreeCodeCamp/Full-Stack-NFT/ForentEnd-Moralis-NextJS/full-stack-nft/frp_moralis/frpc.exe -c frpc.ini ",
+        "moralis:cloud": "moralis-admin-cli watch-cloud-folder --moralisSubdomain db4wlz4paka1.grandmoralis.com --autoSave 1 --moralisCloudfolder ./cloudFunctions"
+    },
+    "dependencies": {
+        "dotenv": "^16.0.3",
+        "magic-sdk": "^10.0.0",
+        "moralis": "^2.6.5",
+        "moralis-v1": "^1.11.0",
+        "next": "12.3.1",
+        "react": "18.2.0",
+        "react-dom": "18.2.0",
+        "react-moralis": "^1.4.2",
+        "web3uikit": "^1.0.4"
+    },
+    "devDependencies": {
+        "eslint": "8.25.0",
+        "eslint-config-next": "12.3.1"
+    }
 }

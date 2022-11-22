@@ -1,26 +1,80 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
 * {
-  box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+        Helvetica Neue, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
+body {
+    background-color: #353b48;
+}
+
+.header {
+    background-color: #7f8fa6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.log {
+    padding-left: 10px;
     color: white;
-    background: black;
-  }
+    font-size: 20px;
+}
+
+.pages {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    align-items: center;
+    margin-right: 40px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.MainModal {
+    width: 20%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: first baseline;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    background-color: #273c75;
+    border-radius: 1.3rem;
+}
+
+.center {
+    color: darkslategray;
+    font-weight: bolder;
+    display: flex;
+    justify-content: first baseline;
+}
+.price {
+    color: darkslategray;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
+
+.heading {
+    color: #ffc312;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+
+.sellNft {
+    align-items: center;
+    margin: 50px;
+    width: 100%;
+    color: #353b48;
 }
